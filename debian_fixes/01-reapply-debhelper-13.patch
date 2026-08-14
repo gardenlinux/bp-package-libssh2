@@ -1,0 +1,13 @@
+diff --git a/debian/control b/debian/control
+index 4dc05db..1ecd1f1 100644
+--- a/debian/control
++++ b/debian/control
+@@ -2,7 +2,7 @@ Source: libssh2
+ Section: libs
+ Maintainer: Nicolas Mora <babelouest@debian.org>
+ Build-Depends: dpkg-dev (>= 1.22.5)
+-             , debhelper-compat (= 14)
++             , debhelper-compat (= 13)
+              , dh-sequence-installsysusers
+              , libssl-dev
+              , zlib1g-dev
